@@ -1,0 +1,14 @@
+{
+    "todos": [
+        {
+            "id": 12435245,
+            "text": "Koka pasta",
+            "completed": false
+        },
+        {
+            "id": 1243545,
+            "text": "Plocka bär",
+            "completed": true
+        }
+    ]
+}

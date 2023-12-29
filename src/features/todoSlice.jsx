@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import todosData from '../assets/todos.json';
 
 // todo = {
 //     id: 234423,
@@ -8,7 +9,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const todoSlice = createSlice({
     name: 'todos',
-    initialState: [],
+    initialState: todosData.todos,
     reducers: {
         addTodo: (state, action) => {
             state.push({ id: Date.now(), text: action.payload, completed: false });
